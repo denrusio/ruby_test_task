@@ -1,2 +1,6 @@
-# ruby_test_task
 Simple console app for basic math training
+# Install
+`gem install sqlite3` 
+`gem install sequel`  
+# Usage
+`ruby -I. main.rb`
