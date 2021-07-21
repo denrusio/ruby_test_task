@@ -47,8 +47,7 @@ module MySession
         attr_accessor :sessions
 
         def print_last_n(n)
-            statistic = Hash["total_correct" => 1, "total_exercises" => 1, "total_time" => 1]
-            puts statistic
+            statistic = Hash["total_correct" => 0, "total_exercises" => 0, "total_time" => 0]
             if @sessions.length >= n
                 for index in 0 .. @n-1
                     tmp = @sessions[index]
